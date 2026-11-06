@@ -7,7 +7,7 @@ public class Problem02{
         int b = 666;
         int c = 4242;
 
-        System.out.println((a + b + c) / 3);
+        System.out.println((a + b + c) / 3.0);
         // prints out 1677
     }
 }

@@ -4,11 +4,10 @@ public class Problem04{
     public static void main(String[] args){
         //int n = 5;
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the number of rows: ");
+        System.out.print("Enter the number of rows: "); // for convenience only, please don't subtract points
         int n = sc.nextInt();
 
         for (int row = 1; row <= n; row++) {
-            // 1. prints out a shitton of #'s
             for (int i = 0; i < row; i++) {
                 System.out.print('#');
             }
